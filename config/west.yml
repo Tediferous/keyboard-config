@@ -5,6 +5,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: mouse-pr-remote
       url-base: https://github.com/ftc
+    - name: kevinpastor
+      url-base: https://github.com/kevinpastor
     # - name: m165437
     #   url-base: https://github.com/M165437
   projects:
@@ -12,6 +14,9 @@ manifest:
       remote: mouse-pr-remote
       revision: mouse-ftc
       import: app/west.yml
+    - name: nice-view-elemental
+      remote: kevinpastor
+      revision: main
     # - name: nice-view-gem
     #   remote: m165437
     #   revision: main
