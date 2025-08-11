@@ -14,8 +14,8 @@
 board:
 - nice_nano_v2
 shield:
-- corne_left nice_view
-- corne_right nice_view
+- corne_left nice_view_adapter nice_view_gem
+- corne_right nice_view_adapter nice_view_gem
 - microdox_v2_left
 - microdox_v2_right
 - settings_reset
