@@ -12,8 +12,8 @@ manifest:
       remote: zmkfirmware
       revision: v0.3
       import: app/west.yml
-    - name: nice-view-gem # repo name
-      remote: m165437 # look at the remote's array define here
-      revision: main # branch/tag
+    # - name: nice-view-gem # repo name
+    #   remote: m165437 # look at the remote's array define here
+    #   revision: main # branch/tag
   self:
     path: config
